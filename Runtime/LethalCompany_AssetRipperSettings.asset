@@ -182,7 +182,7 @@ MonoBehaviour:
       imageExportFormat: 4
       meshExportFormat: 0
       scriptExportMode: 0
-      scriptLanguageVersion: -1
+      scriptLanguageVersion: 900
       shaderExportMode: 0
       spriteExportMode: 0
       terrainExportMode: 0

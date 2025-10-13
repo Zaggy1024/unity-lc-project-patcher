@@ -37,6 +37,10 @@ MonoBehaviour:
     sourceName: Font
     outputPath: Fonts\TextMeshPro
     exclude: 0
+  - key: GameObject
+    sourceName: GameObject
+    outputPath: Prefabs
+    exclude: 0
   - key: LightingSettings
     sourceName: LightingSettings
     outputPath: LightingSettings
@@ -60,10 +64,6 @@ MonoBehaviour:
   - key: PhysicsMaterial
     sourceName: PhysicsMaterial
     outputPath: PhysicsMaterials
-    exclude: 0
-  - key: PrefabInstance
-    sourceName: PrefabInstance
-    outputPath: Prefabs
     exclude: 0
   - key: RenderTexture
     sourceName: RenderTexture
@@ -130,13 +130,13 @@ MonoBehaviour:
   - Cubemap
   - Editor
   - Font
+  - GameObject
   - LightingSettings
   - Material
   - Mesh
   - MonoBehaviour
   - NavMeshData
   - PhysicMaterial
-  - PrefabInstance
   - RenderTexture
   - Resources
   - Scenes

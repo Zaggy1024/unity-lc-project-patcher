@@ -71,9 +71,13 @@ MonoBehaviour:
     exclude: 0
   _scriptDllFoldersToCopy: []
   _ignoredDllPrefixes:
+  - Assembly-CSharp.dll
+  - Mono.
+  - mscorlib.dll
+  - netstandard.dll
   - System.
+  - Unity.
   - UnityEngine.
-  - Unity.Services.
   _exactPackagesFound:
   - name: com.unity.ai.navigation
     version: 1.1.5

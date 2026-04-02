@@ -130,7 +130,7 @@ MonoBehaviour:
       version: 2.0.0
     matchType: 0
   - name: com.unity.netcode.gameobjects
-    version: 1.12.0
+    version: 1.12.2
     dependencies:
     - name: com.unity.transport
       version: 1.4.0

@@ -38,6 +38,18 @@ MonoBehaviour:
     outputPath: 
     exclude: 0
   - key: 
+    sourceName: DunGen.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: DunGen.Integration.ASPP.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: DunGen.Integration.UnityNav.dll
+    outputPath: 
+    exclude: 0
+  - key: 
     sourceName: EasyTextEffects.dll
     outputPath: 
     exclude: 0

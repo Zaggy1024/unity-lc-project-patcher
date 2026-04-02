@@ -182,6 +182,19 @@ MonoBehaviour:
       imageExportFormat: 4
       meshExportFormat: 0
       scriptExportMode: 0
+      assembliesToSaveAsDlls:
+      - AmazingAssets.TerrainToMesh
+      - Assembly-CSharp-firstpass
+      - ClientNetworkTransform
+      - com.olegknyazev.softmask
+      - DissonanceVoip
+      - DunGen
+      - DunGen.Integration.ASPP
+      - DunGen.Integration.UnityNav
+      - EasyTextEffects
+      - Facepunch Transport for Netcode for GameObjects
+      - Facepunch.Steamworks.Win64
+      - Newtonsoft.Json
       scriptLanguageVersion: 900
       shaderExportMode: 0
       spriteExportMode: 0

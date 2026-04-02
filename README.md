@@ -53,7 +53,7 @@ This takes a build of Lethal Company, extracts its assets/scripts/etc, and then 
 You will have to make sure you have the following before using the tool in any way:
 
 - [Git](https://git-scm.com/download/win)
-- [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
     - To run Asset Ripper
 - [Unity Project Patcher](https://github.com/nomnomab/unity-project-patcher)
 - [Unity Project Patcher BepInEx](https://github.com/nomnomab/unity-project-patcher-bepinex)
@@ -64,7 +64,7 @@ You will have to make sure you have the following before using the tool in any w
 
 ### Unity Project
 
-- Requires [Unity 2022.3.9f1](https://unity.com/releases/editor/whats-new/2022.3.9)
+- Requires [Unity 2022.3.62f2](https://unity.com/releases/editor/whats-new/2022.3.62f2)
 - Unity HDRP pipeline (High Definition 3D)
 
 Create a new Unity project with the above requirements before getting started.
@@ -79,8 +79,7 @@ Install with the package manager:
 1. Open the Package Manager from `Window > Package Manager`
 2. Click the '+' button in the top-left of the window
 3. Click 'Add package from git URL'
-4. Provide the URL of the this git repository: `https://github.com/nomnomab/unity-project-patcher.git`
-    - If you are using a specific version, you can append it to the end of the git URL, such as `#v1.2.3`
+4. Provide the URL of the this git repository: `https://github.com/Zaggy1024/unity-project-patcher.git#lc-v80-fixes`
 5. Click the 'add' button
 
 Install with the manifest.json:
@@ -89,14 +88,12 @@ Install with the manifest.json:
 2. Insert the following as an entry:
 
 ```json
-"com.nomnom.unity-project-patcher": "https://github.com/nomnomab/unity-project-patcher.git"
+"com.nomnom.unity-project-patcher": "https://github.com/Zaggy1024/unity-project-patcher.git#lc-v80-fixes"
 ```
-
-- If you are using a specific version, you can append it to the end of the git URL, such as `#v1.2.3`
 
 ### Installing this Game Wrapper
 
-The same steps as previously, just with `https://github.com/nomnomab/unity-lc-project-patcher.git`
+The same steps as previously, just with `https://github.com/nomnomab/unity-lc-project-patcher.git#v80-fixes`
 
 ### Installing the BepInEx Wrapper
 

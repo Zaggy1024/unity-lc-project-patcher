@@ -16,9 +16,6 @@ namespace Nomnom.LethalCompanyProjectPatcher.Editor {
                 new ChangeSceneListStep("InitSceneLaunchOptions")
             );
             
-            stepPipeline.InsertBefore<CopyAssetRipperExportToProjectStep>(
-                new MakeProxyScriptsStep(new MakeProxyScriptsStep.Proxy("ES3Defaults", "LethalCompany"))
-            );
             stepPipeline.InsertAfter<AssetRipperStep>(
                 new MoveFilesInExportStep(
                     (Path.Combine("Scripts", "Assembly-CSharp", "DunGen", "Editor", "*"), Path.Combine("Scripts", "Assembly-CSharp", "DunGen"))
@@ -33,12 +30,6 @@ namespace Nomnom.LethalCompanyProjectPatcher.Editor {
             );
             stepPipeline.SetGameViewResolution("16:9");
             stepPipeline.OpenSceneAtEnd("InitSceneLaunchOptions");
-            stepPipeline.InsertLast(new FixES3Step());
-            // stepPipeline.InsertAfter<FixES3Step>(new RenameAnimatorParametersStep(
-            //         new RenameAnimatorParametersStep.Replacement("SunAnimContainer", ("eclipse", "eclipsed")),
-            //         new RenameAnimatorParametersStep.Replacement("SunAnimContainer 1", ("eclipse", "eclipsed"))
-            //     )
-            // );
         }
     }
 }

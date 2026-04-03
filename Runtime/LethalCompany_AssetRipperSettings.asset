@@ -137,6 +137,7 @@ MonoBehaviour:
   - MonoBehaviour
   - NavMeshData
   - PhysicMaterial
+  - Plugins
   - RenderTexture
   - Resources
   - Scenes
@@ -184,7 +185,6 @@ MonoBehaviour:
       scriptExportMode: 0
       assembliesToSaveAsDlls:
       - AmazingAssets.TerrainToMesh
-      - Assembly-CSharp-firstpass
       - ClientNetworkTransform
       - com.olegknyazev.softmask
       - DissonanceVoip

@@ -22,10 +22,6 @@ MonoBehaviour:
     outputPath: 
     exclude: 0
   - key: 
-    sourceName: Assembly-CSharp-firstpass.dll
-    outputPath: 
-    exclude: 0
-  - key: 
     sourceName: ClientNetworkTransform.dll
     outputPath: 
     exclude: 0
@@ -87,7 +83,7 @@ MonoBehaviour:
     exclude: 0
   _scriptDllFoldersToCopy: []
   _ignoredDllPrefixes:
-  - Assembly-CSharp.dll
+  - Assembly-CSharp
   - Mono.
   - mscorlib.dll
   - netstandard.dll

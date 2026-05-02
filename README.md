@@ -93,7 +93,7 @@ Install with the manifest.json:
 
 ### Installing this Game Wrapper
 
-The same steps as previously, just with `https://github.com/nomnomab/unity-lc-project-patcher.git#v80-fixes`
+The same steps as previously, just with `https://github.com/Zaggy1024/unity-lc-project-patcher.git#v80-fixes`
 
 ### Installing the BepInEx Wrapper
 
